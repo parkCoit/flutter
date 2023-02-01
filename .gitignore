@@ -12,6 +12,7 @@ migrate_working_dir/
 assets/
 *.png/
 *.jpeg/
+*.ttf/
 
 # IntelliJ related
 *.iml
