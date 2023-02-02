@@ -1,4 +1,4 @@
-import 'package:hello_flutter/ch16_calender_scheduler/const/colors.dart';
+import 'package:hello_flutter/ch16_table_calendar/const/colors.dart';
 import 'package:flutter/material.dart';
 
 class ScheduleCard extends StatelessWidget {
@@ -59,7 +59,7 @@ class _Time extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textStyle = TextStyle(
+    const textStyle = TextStyle(
       fontWeight: FontWeight.w600,
       color: PRIMARY_COLOR,
       fontSize: 16.0,

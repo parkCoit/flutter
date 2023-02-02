@@ -7,7 +7,6 @@ list(APPEND FLUTTER_PLUGIN_LIST
   geolocator_windows
   iris_event
   permission_handler_windows
-  sqlite3_flutter_libs
   url_launcher_windows
 )
 

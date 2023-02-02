@@ -1,4 +1,4 @@
-import 'package:hello_flutter/ch16_calender_scheduler/const/colors.dart';
+import 'package:hello_flutter/ch16_table_calendar/const/colors.dart';
 import 'package:flutter/material.dart';
 
 class TodayBanner extends StatelessWidget {
