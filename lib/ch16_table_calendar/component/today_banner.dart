@@ -3,13 +3,11 @@ import 'package:flutter/material.dart';
 
 class TodayBanner extends StatelessWidget {
   final DateTime selectedDate;  // ➊ 선택된 날짜
-  final int count;  // ➋ 일정 개수
+  final int count;
 
-  const TodayBanner({
-    required this.selectedDate,
-    required this.count,
-    Key? key,
-  }) : super(key: key);
+  const TodayBanner({super.key, required this.selectedDate, required this.count});  // ➋ 일정 개수
+
+
 
   @override
   Widget build(BuildContext context) {

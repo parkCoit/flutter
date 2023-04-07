@@ -124,6 +124,7 @@ class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
     final Schedule? returnSchedule = schedules.get(temp);
     final String res = returnSchedule.toString();
     Logger.showToast("5 final: $res");
+    Navigator.of(context).pop();
     // Navigator.of(context).pop();
 
 
